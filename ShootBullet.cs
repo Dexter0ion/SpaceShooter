@@ -55,6 +55,7 @@ public class ShootBullet : MonoBehaviour {
         if(Input.GetKey(KeyCode.K)|| Input.GetKey(KeyCode.Joystick1Button3)||m_fire2==true)
         {
             GameObject bulletObj = Instantiate(missilePrefabs, bulletSpawnPoint.position, bulletRotation) as GameObject;
+
         }
     }
 }

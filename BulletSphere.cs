@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletSphere : MonoBehaviour {
-
     
     //子弹的速度
     public float speed = 500;

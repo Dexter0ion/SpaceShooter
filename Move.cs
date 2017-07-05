@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 public class Move : MonoBehaviour {
+    
     public float speed = 3f;
     public GameObject Shuttle;
     private Rigidbody2D myRigidbody2d;

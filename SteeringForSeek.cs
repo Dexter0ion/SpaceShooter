@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SteeringForSeek :Steering
 {
+    
     //需要寻找的目标物体
     public GameObject target;
     //预期速度

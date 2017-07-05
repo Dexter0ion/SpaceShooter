@@ -10,6 +10,7 @@ public class AILocomotion : Vehicle {
     //AI角色每次的移动距离
     private Vector3 moveDistance;
 
+    
     // Use this for initialization
 	void start () {
         //获得角色控制器（如果有的话）
